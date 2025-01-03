@@ -1,2 +1,14 @@
+import pyautogui
+import time
+import keyboard
 
-import py
+def instalock():
+    while True:
+        if keyboard.is_pressed('ctrl'):
+            print("Pressed ctrl, breaking!!!")
+            break
+        else:
+
+                print("lund")
+
+instalock()
